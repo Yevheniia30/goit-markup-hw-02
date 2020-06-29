@@ -1,0 +1,50 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.webstudio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+.web {
+  color: #2196f3;
+}
+.studio-header-color {
+  color: #000;
+}
+.studio-footer-color {
+  color: #fff;
+}
+.nav {
+  display: flex;
+}
+.nav-items {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  display: flex;
+}
+.footer-links {
+  display: inline;
+}
+.sec-team {
+  background: #f5f4fa;
+}
+.footer {
+  background: #2f303a;
+}
+.font-color {
+  color: #212121;
+}
+p {
+  color: #757575;
+}
