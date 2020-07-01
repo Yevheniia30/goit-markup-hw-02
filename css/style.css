@@ -1,7 +1,7 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
+  color: #212121;
 }
-
 .webstudio {
   font-family: Raleway;
   font-style: normal;
@@ -9,42 +9,46 @@ body {
   font-size: 26px;
   line-height: 31px;
   /* identical to box height */
-
   letter-spacing: 0.03em;
 }
 .web {
   color: #2196f3;
 }
-.studio-header-color {
+.studio-header {
   color: #000;
 }
-.studio-footer-color {
+.studio-footer {
   color: #fff;
 }
-.nav {
-  display: flex;
-}
-.nav-items {
+.nav,
+.nav-items,
+ul {
   display: flex;
 }
 a {
   text-decoration: none;
 }
-ul {
-  display: flex;
-}
 .footer-links {
   display: inline;
 }
-.sec-team {
+.team {
   background: #f5f4fa;
 }
 .footer {
   background: #2f303a;
 }
-.font-color {
+.skills-title,
+.team-title,
+.clients-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
   color: #212121;
 }
-p {
+.features-text,
+.team-text {
   color: #757575;
 }
