@@ -1,6 +1,39 @@
+/*заголовки  h #212121
+  текст p #757575
+  цвет ховер #2196f3
+  белый #ffffff
+  черный #000000
+  studio в хедере#ffffff
+  фон блока команды #f5f4fa
+  фон футера #2f303a
+  контакты и мейл-форма в футере rgba(255, 255, 255, 0.6)*/
+
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --link-hover-color: #2196f3;
+}
+
 body {
   font-family: Roboto;
-  color: #212121;
+  background-color: #fff;
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.site-nav-list .link {
+  color: var(--primary-text-color);
+}
+.site-nav-contacts-list .link {
+  color: var(--text-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--link-hover-color);
 }
 .webstudio {
   font-family: Raleway;
@@ -20,26 +53,24 @@ body {
 .studio-footer {
   color: #fff;
 }
-.nav,
-.nav-items,
+.site-nav,
+.site-nav-list,
 ul {
   display: flex;
-}
-a {
-  text-decoration: none;
 }
 .footer-links {
   display: inline;
 }
 .team {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 }
 .footer {
   background: #2f303a;
 }
-.skills-title,
-.team-title,
-.clients-title {
+/* .hero-title { 
+  color: #ffffff;
+}*/
+.section-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
