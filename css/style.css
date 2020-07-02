@@ -13,12 +13,13 @@
   --text-color: #757575;
   --link-hover-color: #2196f3;
   --footer-background: #2f303a;
-  --section-team-background: #f5f4fa;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
 }
 
 body {
   font-family: Roboto;
-  background-color: #ffffff;
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
 ul {
@@ -54,6 +55,9 @@ a {
 .link:focus {
   color: var(--link-hover-color);
 }
+.site-nav-list .link.current {
+  color: var(--link-hover-color);
+}
 .webstudio {
   font-family: Raleway;
   font-style: normal;
@@ -74,7 +78,7 @@ a {
 }
 
 .team {
-  background-color: var(--section-team-background);
+  background-color: var(--secondary-bg-color);
 }
 .footer {
   background: var(--footer-background);
@@ -93,5 +97,13 @@ a {
 }
 .features-text,
 .team-text {
-  color: #757575;
+  color: var(--text-color);
+}
+.button.primary {
+  color: var(--primary-bg-color);
+  background-color: var(--link-hover-color);
+}
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bg-color);
 }
