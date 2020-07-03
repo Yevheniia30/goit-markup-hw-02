@@ -31,7 +31,7 @@ body {
 ul {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
 }
 button {
@@ -125,9 +125,11 @@ button {
 /* .button :hover, 
 .button :focus {
   color: var(--accent-color);
-}*/
+}
 button[type]:hover,
 button[type]:focus {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
 }
+*/
+.modal-btn ();
